@@ -1,8 +1,11 @@
 <?php>
-require_once('G:/adise/ADISE21_Apsa/resources/mistigriff.card.class.php');
-require_once('G:/adise/ADISE21_Apsa/resources/mistigriff.deck.class.php');
-require_once('G:/adise/ADISE21_Apsa/resources//mistigriff.game.class.php');
-require_once('G:/adise/ADISE21_Apsa/resources/mistigriff.player.class.php');
+include ('../db/db_connect.php');
+
+include('G:/adise/ADISE21_Apsa/resources/mistigriff.card.class.php');
+include('G:/adise/ADISE21_Apsa/resources/mistigriff.deck.class.php');
+include('G:/adise/ADISE21_Apsa/resources//mistigriff.game.class.php');
+include('G:/adise/ADISE21_Apsa/resources/mistigriff.player.class.php');
+
 session_start();
 class Mistigriff {
 	public static $SESSION_ID = 'MistigriffGame';
