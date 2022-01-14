@@ -1,3 +1,4 @@
+<html>
 <ul>
 	<? foreach(array_slice($cards,0,11) as $card): ?>
 		<?php
@@ -12,4 +13,4 @@
 		</li>
 	<? endforeach; ?>
 </ul>
-
+</html>

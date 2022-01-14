@@ -1,4 +1,4 @@
-
+<html>
 <ul>
 	<? foreach(array_reverse($cards) as $card): ?>
 		<li>
@@ -7,3 +7,4 @@
 		</li>
 	<? endforeach; ?>
 </ul>
+</html>

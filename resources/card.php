@@ -1,4 +1,7 @@
 <?php
+include '../db/dbconnect.php';
+session_start();
+
 $rel = @$rel ? $rel : '';
 if($card->getIsWild() && !$card->getColor()){
 	$colors = array('red','blue','green','yellow');

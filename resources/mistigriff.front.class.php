@@ -1,5 +1,8 @@
 <?php
-    class Mistigriff_Front {
+session_start();
+include "../db/dbconnect.php";
+
+class Mistigriff_Front {
 	protected $_cards = array();
 	
 	public function addCard(Mistigriff_Card $card){

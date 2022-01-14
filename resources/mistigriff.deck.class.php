@@ -1,4 +1,6 @@
 <?php
+session_start();
+include "../db/dbconnect.php";
 
     class Mistigriff_Deck {
 	protected $_cards = array();
@@ -92,3 +94,4 @@
 
 }
 
+?>
