@@ -1,6 +1,6 @@
 <?php
 
-require_once('resources/php/mistigriff.class.php');
+require_once('G:/adise/ADISE21_Apsa/resources/admistigriff.class.php');
 $action = isset($_GET['action']) ? $_GET['action'] : null;
 $id = isset($_GET['id']) ? $_GET['id'] : null;
 $color = isset($_GET['color']) ? $_GET['color'] : null;

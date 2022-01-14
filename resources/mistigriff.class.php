@@ -1,14 +1,14 @@
 <?php>
-require_once('resources/php/mistigriff.card.class.php');
-require_once('resources/php/mistigriff.deck.class.php');
-require_once('resources/php/mistigriff.game.class.php');
-require_once('resources/php/mistigriff.player.class.php');
+require_once('G:/adise/ADISE21_Apsa/resources/mistigriff.card.class.php');
+require_once('G:/adise/ADISE21_Apsa/resources/mistigriff.deck.class.php');
+require_once('G:/adise/ADISE21_Apsa/resources//mistigriff.game.class.php');
+require_once('G:/adise/ADISE21_Apsa/resources/mistigriff.player.class.php');
 session_start();
 class Mistigriff {
 	public static $SESSION_ID = 'MistigriffGame';
 	public static $GAMES_LOCATION = 'resources/games';
 	public static $GAMES_LOCATION_SUFFIX = '.serialize';
-	public static $DECK_LOCATION = 'resources/templates/deck.serialize';
+	public static $DECK_LOCATION = 'G:/adise/ADISE21_Apsa/resources/deck.serialize';
 	
 	public static function startGame(){
 		$id = uniqid();
