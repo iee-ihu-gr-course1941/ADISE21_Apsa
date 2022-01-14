@@ -32,5 +32,4 @@ else if($action == 'debugSession'){
 	echo '</pre>';
 }
 include('update.php');
-
 ?>

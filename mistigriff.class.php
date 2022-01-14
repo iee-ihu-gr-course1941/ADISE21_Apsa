@@ -1,10 +1,9 @@
-<?php
+<?php>
 require_once('resources/php/mistigriff.card.class.php');
 require_once('resources/php/mistigriff.deck.class.php');
 require_once('resources/php/mistigriff.game.class.php');
 require_once('resources/php/mistigriff.player.class.php');
 session_start();
-
 class Mistigriff {
 	public static $SESSION_ID = 'MistigriffGame';
 	public static $GAMES_LOCATION = 'resources/games';
@@ -164,5 +163,5 @@ class Mistigriff {
 		}
 		echo '<hr/>';
 	}
-}   //put your code here
-
+}
+?>
